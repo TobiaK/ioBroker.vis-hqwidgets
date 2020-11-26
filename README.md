@@ -18,6 +18,9 @@ http://anthonyterrien.com/knob/ or https://github.com/aterrien/jQuery-Knob
 -->
 
 ## Changelog
+### 1.1.7a (2020-11-26)
+* (tobiak) Click changed. Set light to 0% if value < 50 else to 100%
+
 ### 1.1.7 (2020-10-31)
 * (bluefox) Corrected the after comma digits for the valve
 
