@@ -1,8 +1,11 @@
 {
     "common": {
         "name": "vis-hqwidgets",
-        "version": "1.1.7",
+        "version": "1.1.8",
         "news": {
+            "1.1.8": {
+                "en": "Change click event"
+            },
             "1.1.7": {
                 "en": "Corrected the after comma digits for the valve",
                 "de": "Die Nachkommastellen für das Ventil wurden korrigiert",
