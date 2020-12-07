@@ -1531,7 +1531,12 @@ vis.binds.hqwidgets = {
                         click:      function (val) {
                             val = data.value;
                             if (!data.temperature) {
-                                if (val - data.min < ((data.max - data.min) / 2)) {
+				if (val === data.max) { 
+				    val = data.min;
+				} else if (val === data.min) {
+				// TODO: set last setting?
+				    val = data.max;
+				} else if (val - data.min < ((data.max - data.min) / 2)) {
                                     val = data.min;
                                 } else {
                                     val = data.max;
